@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+    *{
+        list-style: none;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'open sans',sans-serif;
+    }
+    .maza{
+        background: #f5f6fa;
+    }
+    .wrapper .sidebar{
+        background: rgb(5, 68, 104);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 225px;
+        height: 100%;
+        padding: 20px 0;
+        transition: all 0.5s ease;
+    }
+    .wrapper .sidebar .profile{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .wrapper .sidebar .profile img{
+        display: block;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .wrapper .sidebar .profile h3{
+        color: #ffffff;
+        margin: 10px 0 5px;
+    }
+    .wrapper .sidebar .profile p{
+        color: rgb(206, 204, 253);
+        font-size: 14px;
+    }
+    .wrapper .sidebar ul li a{
+        display: block;
+        padding: 13px 30px;
+        border-bottom: 1px solid #10558d;
+        color: rgb(241, 237, 237);
+        font-size: 16px;
+        position: relative;
+    }
+    .wrapper .sidebar ul li a .icon{
+        color: #dee4ec;
+        width: 30px;
+        display: inline-block;
+    }
+    /*link hover*/
+    .wrapper .sidebar ul li a:hover,
+    .wrapper .sidebar ul li a.active{
+        color: #0c7db1;
+        background: white;
+        border-right: 2px solid rgb(5, 68, 184);
+    }
+    .wrapper .sidebar ul li a:hover.icon,
+    .wrapper .sidebar ul li a.active.icon{
+        color: #0c7db1;
+    }
+    .wrapper .sidebar ul li a:hover::before,
+    .wrapper .sidebar ul li a.active::before{
+        display: block;
+    }
+    .wrapper .section{
+        width: calc(100%-225px);
+        margin-left: 225px;
+        transition: all 0.5sec ease;
+    }
+    .wrapper .section .top-navbar{
+        background-color: rgb(7, 105, 185);
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0 30px;
+    }
+    .wrapper .section .top-navbar .hamburger a{
+        font-size: 25px;
+        color: #f4fbff;
+    }
+    .wrapper .section .top-navbar .hamburger a:hover{
+         color: #b7ee1f;
+    }
+    
+    body.active .wrapper .sidebar{
+        left: -225px;
+    }
+    body.active .wrapper .section{
+        margin-left: 0;
+        width: 100%;
+    }
+
+
+     /*style for form-gampumu.php*/
+     *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+     }
+     .mama{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: rgb(233, 223, 223);
+     }
+     #create-account-form{
+        width: 400px;
+        padding: 20px;
+        text-transform: uppercase;
+        background: #fff;
+     border-radius: 4px;
+     border-top-right-radius: 4px;
+     border-top-left-radius: 4px;
+
+       
+     }
+     .title{
+        
+        margin-bottom: 20px;
+        background-color: #055bb5;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        height: 80px;
+        margin-top: -50pt;
+       margin-left: -15pt;
+       margin-right: -15pt;
+     }
+
+     .title .h2{
+margin-top: 5pt;
+     }
+
+
+
+     .input-group{
+        margin: 20px 0;
+        position: relative;
+     }
+     .success input{
+        border: 3px green solid;
+     }
+     .error input{
+        border: 3px red solid;
+     }
+     .input-group label{
+        display: inline-block;
+        margin-bottom: 5px;
+     }
+     .input-group input{
+        display: block;
+        width: 100%;
+        padding: 10px;
+     }
+     .input-group i{
+        position: absolute;
+        right: 10px;
+        top: 35px;
+        visibility: hidden;
+     }
+     .success i.fa-check-circle{
+        visibility: visible;
+        color: green;
+     }
+     .error i.fa-exclamation-circle{
+        visibility: visible;
+        color: red;
+     }
+     .input-group p{
+        font-size: 15px;
+        color: red;
+        visibility: hidden;
+     }
+     .error p{
+        visibility: visible;
+     }
+     .btn{
+        width: 100%;
+        padding: 10px;
+        font-size: 20px;
+        background-color: green;
+        color: #fff;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+     }
+     .para_3{
+        margin-top: 30px;
+        text-transform: lowercase;
+        font-size: 30px;
+     }
+     .para_3 a{
+        color: chocolate;
+     }
+
+     /*style for home-gampumu.php  title  */
+     
+     #link{
+        text-transform: none;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: sans-serif;
+        font-weight: 1;
+     }
+     #link_dive{
+        justify-content: center;
+     }
+     

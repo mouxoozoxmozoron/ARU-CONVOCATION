@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!---bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous">
+      <!--- ./bootstrap link-->
+
+      <!-------  icon-Link ------->
+      <link rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-------  ./icon-Link ------->
+
+      <!------- styles css ------>
+    <style>
+        .text-color{
+            color: #225294;
+            font-weight: 900!important;
+            line-height: 3;
+        
+        }
+        .bg-color{
+            background-color: #D55E1C;;
+        }
+        nav .nav-link{
+            color: #fff;
+
+        }
+        nav .nav-link:hover{
+          background-color: #80902D;
+          color: #fff;
+        }
+        .bg-color-main-section{
+            background-color: #D55E1C;
+        }
+        .text-align-center{
+            text-align: center;
+           
+            color: #fff;
+            padding-top: 10px;
+        }
+        .carousel-design{
+            height: 450px;
+            width: 100%;
+        }
+        .img-size{
+            height: 430px;
+            max-width: 100%;
+            overflow: hidden;
+        }
+        .img-size img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale(0.8);
+        }
+        .text-align-center2{
+            text-align: center;
+            line-height: 3;
+            font-weight: bold;
+            color:#225294
+           
+        }
+       .card-anouncement{
+        background: #FFF;
+          margin: 0 0 20px;
+        padding: 20px;
+       border-radius: 2px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        transition: 0.3s ease;
+}
+        .card-anouncement:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            display: flex;
+        }
+        .title{
+         width: 130px;
+         display: inline-block;
+         color: #fff;
+         font-size: 0.75rem;
+        font-weight: 600;
+        margin: 0 0 10px;
+        text-transform: uppercase;
+        padding: 8px 10px;
+        
+        }
+        .w-30{
+            width: 50px;
+        }
+        .blinkAnouncement{
+            animation: blink 1s steps(1, end) infinite;
+        }
+        
+    @keyframes blink {
+    0% {
+    opacity: 1;
+    }
+    50% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+   }
+  }
+
+  .ega-footer {
+  font-size: 14px;
+  background: #225294;
+  padding: 1em 0;
+    padding-bottom: 1em;
+}
+
+  .footer-content {
+  background-color: #225294;
+  padding: 30px 0 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+  color: #797979;
+  font: 400 15px/25px Roboto;
+}
+
+  .footer-heading {
+  color: #f2f2f2;
+  font: 400 19px/25px Roboto-Bold;
+  display: inline-block;
+  margin-top: 0;
+}
+.container.max-1920 {
+  max-width: 1920px;
+}
+.h1, h1 {
+  font-size: 2.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.text-right a{
+    display: inline-flex;
+    float: right;
+    text-decoration: none;
+    padding: 0 5px;
+    background-color: #f2f2f2;
+}
+.bolded{
+    color: #fff;
+    text-decoration: none;
+}
+.text-justify{
+    color: #fff;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+    </style>
+    <!------- ./styles css ------>
+
+</head>
+<body>
+    <!-------------- container ------------>
+<div class="container">
+    <div class="row align-item-center">
+        <div class="col-md-2">
+            <img src="./images/logo.jpg" alt="">
+        </div>
+        <div class="col-lg-8">
+            <div class="text-center header-info">
+            <h3>  </h3>
+            <h2 class = "text-color">ARU CONVOCATION </h2>
+            </div>
+            </div>
+            <div class="col-md-2">
+                <img src="https://www.aru.ac.tz/site/images/logo.jpg" alt="">
+            
+            </div>
+            
+    </div>
+    </div>
+    <!-----   ./container  -------------------->
+
+    <!--- Navbar-------------->
+        <nav class="navbar navbar-expand-sm navbar-light bg-color sticky-top">
+            <div class="container-fluid ">
+              <a class="navbar-brand " href="#">ARU CONVOCATION</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                  </li>
+              </ul>
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class=" nav-link" href="login_form.php">Login</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Register</a>
+                  </li>			
+                </ul>		  
+              </div>
+            </div>
+          </nav>
+    <!----- ./Navbar ------------->
+
+    <!------Main Content --------->
+            <div class="container-fluid">
+                <div class="row">
+                   <div class="container bg-color-main-section"">
+                     <!------------ slide show --------------->
+    <div id="carouselExampleInterval" class="carousel slide carousel-design" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!--- item 1-->
+          <div class="carousel-item active" data-bs-interval="10000">
+               <div class="row">
+                <div class="col-md-12">
+                    <img src="https://www.aru.ac.tz/uploads/gallery/565bc0fbdd4285bf9a6e1ab6e6b276f6.jpg" class="d-block w-100 img-size"alt="">
+                </div>
+               </div>
+          </div>
+          <!---- ./item 1------->
+
+          <!----- itemn 2  -->
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="https://www.aru.ac.tz/uploads/gallery/565bc0fbdd4285bf9a6e1ab6e6b276f6.jpg" class="d-block w-100 img-size"alt="">
+                </div>
+               </div>
+          </div>
+          <!----- ./item 2 ----------->
+
+
+          <!---- item 3-------->
+          <div class="carousel-item">
+               <div class="row">
+                <div class="col-md-12">
+                    <img src="https://www.aru.ac.tz/uploads/gallery/565bc0fbdd4285bf9a6e1ab6e6b276f6.jpg" class="d-block w-100 img-size"alt="">
+                </div>
+               </div>
+          </div>
+          <!----- ./item 3 ---------->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+          </div>
+      <!------ ./slide show ---------------->
+
+          <!--- anouncement row------->
+          <div class="col-md-12">
+            <div class="row">
+                <div class="main-content-inside">
+                    <div class="container">
+                        <h4 class =" text-align-center2 text-bold px-3">Anouncements</h4>
+                        <div class="row">
+                            <!------- col-md-4 -------->
+                            <div class="col-md-4 my-2">
+                                <div class="row card-anouncement" style="width: 18rem">
+                                    <h5 class="title" style = "background-color: #225294;">
+                                     16th Aug 2023
+                                    </h5>
+                                    <img class = "w-30 blinkAnouncement" src="https://www.aru.ac.tz/site/images/new_blinks.gif" alt="">
+                                    <h5 class = "text-info"> Zifahamu kozi zinazo tolewa Chuo kikuu Ardhi</h5>
+                                    <div class="col-md-12">
+                                        <a class = "text-secondary" href="https://www.aru.ac.tz/announcements/call-for
+                                        -applications-for-uta-do-2024-call-for-submissions-just-housing-solutions-for-
+                                        urban-tanzania">
+                                        Call for applications for UTA-Do 2024  </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!------- ./colmd-4 ------>
+
+                            <!--- col-md-4 -------->
+                            <div class="col-md-4">
+                                <div class="row card-anouncement">
+                                    <h5 class = "title" style = "background-color:#80902D;">
+                                    16 Aug 2023
+                                    </h5>
+                                    <img class = "w-30 blinkAnouncement" src="https://www.aru.ac.tz/site/images/new_blinks.gif" alt="">
+                                    <div class="col-md-12">
+                                        <a class = "text-secondary" href="https://www.aru.ac.tz/announcements/call-for
+                                        -applications-for-uta-do-2024-call-for-submissions-just-housing-solutions-for-
+                                        urban-tanzania">Call for Submissions: Just Housing Solutions for Urban Tanzania </a>
+                                    </div>
+                                </div>
+                            </div>
+                       <!------- ./colmd-4 ------>
+
+                       
+                            <!--- col-md-4 -------->
+                            <div class="col-md-4">
+                                <div class="row card-anouncement">
+                                    <h5 class = "title" style = "background-color:#D55E1C;">
+                                    18 Aug 2023
+                                    </h5>
+                                    <img class = "w-30 blinkAnouncement" src="https://www.aru.ac.tz/site/images/new_blinks.gif" alt="">
+                                    <div class="col-md-12">
+                                        <a class = "text-secondary" href="https://www.aru.ac.tz/announcements/call-for
+                                        -applications-for-uta-do-2024-call-for-submissions-just-housing-solutions-for-
+                                        urban-tanzania">Invitation to Apply for Admission into Postgraduate Programmes for 2023/2024 Academic Year </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                       <!------- ./colmd-4 ------>
+
+
+                       
+                            <!--- col-md-4 -------->
+                            <div class="col-md-4">
+                                <div class="row card-anouncement">
+                                    <h5 class = "title" style = "background-color:#80902D;">
+                                    20 Aug 2023
+                                    </h5>
+                                    <img class = "w-30 blinkAnouncement" src="https://www.aru.ac.tz/site/images/new_blinks.gif" alt="">
+                                    <div class="col-md-12">
+                                        <a class = "text-secondary" href="https://www.aru.ac.tz/announcements/call-for
+                                        -applications-for-uta-do-2024-call-for-submissions-just-housing-solutions-for-
+                                        urban-tanzania">Tangazo la Kazi Julai 2023  </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                       <!------- ./colmd-4 ------>
+
+                       
+                            <!--- col-md-4 -------->
+                            <div class="col-md-4">
+                                <div class="row card-anouncement">
+                                    <h5 class = "title" style = "background-color:#D55E1C;">
+                                    24 Aug 2023
+                                    </h5>
+                                    <img class = "w-30 blinkAnouncement" src="https://www.aru.ac.tz/site/images/new_blinks.gif" alt="">
+                                    <div class="col-md-12">
+                                        <a class = "text-secondary" href="https://www.aru.ac.tz/announcements/call-for
+                                        -applications-for-uta-do-2024-call-for-submissions-just-housing-solutions-for-
+                                        urban-tanzania">Invitation for Application to Undergraduate Degree Programmes 
+                                        for the Academic Year 2023/2024  </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                       <!------- ./colmd-4 ------>
+
+                       
+                            <!--- col-md-4 -------->
+                            <div class="col-md-4">
+                                <div class="row card-anouncement">
+                                    <h5 class = "title" style = "background-color:#225294;">
+                                    16 Aug 2023
+                                    </h5>
+                                    <img class = "w-30 blinkAnouncement" src="https://www.aru.ac.tz/site/images/new_blinks.gif" alt="">
+                                    <div class="col-md-12">
+                                        <a class = "text-secondary" href="https://www.aru.ac.tz/announcements/call-for
+                                        -applications-for-uta-do-2024-call-for-submissions-just-housing-solutions-for-
+                                        urban-tanzania">To All Former Graduands of Ardhi University  </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                       <!------- ./colmd-4 ------>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+          </div>
+          <!---- ./anouncemrnt-->
+      
+                   </div>
+                </div>
+            </div>
+    <!----------./Main Content ---------------->
+
+    <!------ foooter  ------------>
+            <footer class="ega-footer container mt-3 w-100 max-1920">
+                <div class="container footer-content">
+                    <div class="row">
+                        <!--- col-md-4 ------>
+                        <div class="col-md-4">
+                            <a href="#">
+                                <h1 class = "bolded">Ardhi University</h1>
+                            </a>
+                            <p class="text-justify">
+                                Ardhi University Campus is located in Dar es Salaam 
+                                along University Road adjacent to the University of
+                                 Dar es Salaam approx. 12.00 Kilometres from the
+                                  Dar es Salaam City Centre.  The University is
+                                   within the proximity several other academic
+                                    Institutions, viz; Rwegarulila Water Resources 
+                                    Institute, The National Institute of Transport, 
+                                    The Institute of Social Welfare and the National Tax Institute. 
+                            </p>
+                        </div>
+                         <!--- ./col-md-4 ------>
+
+                         <!----- col-md-8 -------->
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-6 no-padding-sm">
+                                    <h5 class = "footer-heading">Related Links</h5>
+                                    <ul class = "list-=inline text-left">
+                                        <li class = "list-inline-item mb-2">
+                                            <a class = "link"  href="https://www.iuc-aru.com/">VLIR-UOS IUC</a>
+                                        </li>
+                                        <br>
+                                        <li class = "list-inline-item mb-2">
+                                            <a class = "link" href="https://www.actea.net/">Applied Curricula in Technology for East Africa (ACTEA)</a>
+                                        </li>
+                                        <br>
+                                        <li class = "list-inline-item mb-2">
+                                            <a class = "link"  href="https://www.tanzania.go.tz/">Tanzania National Website</a>
+                                        </li>
+                                        <br>
+                                        <li class = "list-inline-item mb-2">
+                                            <a class = "link"  href="https://nida.go.tz/">National Identification Authority - NIDA</a>
+                                        </li>
+                                        <br>
+                                        <li class = "list-inline-item mb-2">
+                                            <a class = "link"  href="https://www.nhif.or.tz/">National Health Insurance Fund -NHIF</a>
+                                        </li>
+                                        <br>
+                                        <li class = "list-inline-item mb-2">
+                                            <a class = "link"  href="https://www.heslb.go.tz/">Higher Education Students' Loans Board - HESLB</a>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12 text-right">
+                                        <a href="https://www.aru.ac.tz/related-links"><i>View More</i></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 no-padding-sm">
+                                    <h5 class = "footer-heading">Contact Us</h5>
+                                    <p>
+                                        Ardhi University , 
+                                        <br>
+                                        P. O. Box 35176, Observation Hill, Plot No. 3, Block L, University Road.
+                                    </p>
+                                    <p>
+                                        <a class = "displayBlock link" href="">aru@aru.ac.tz</a>
+                                    </p>
+                                    <p>(+255) - 738 357 310</p>
+                                    <p>Fax : (255-022) - 2775391</p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        <!----- ./col-md-8 -------->
+
+                        <!-------- col-md-12 -------->
+                        <div class="col-md-12 px-3">
+                            <div class="footer-link">
+                                <div class="row">
+                                    <div class="col-md-4 px-1 footer-media">
+                                        <a href="https://www.instagram.com/ardhi.university/">
+                                            <i class="fa fa-instagram" aria-hidden = "true"></i>
+                                        </a>
+                                        <a href="https://www.youtube.com/channel/UCDoLhNn1JpGFkl8xJMN2dMg">
+                                            <i class="fa fa-youtube" aria-hidden = "true"></i>
+                                        </a>
+                                    </div>
+                                    <!------ col-md-8 ------>
+                                    <div class="col-md-8 list no-padding-sm">
+
+                                    </div>
+                                     <!------ ./col-md-8 ------>
+                                </div>
+                            </div>
+                        </div>
+                          <!-------- ./col-md-12 -------->
+                    </div>
+                </div>
+
+            </footer>
+
+
+     <!------ ./foooter  ------------>
+
+    <!----- JAVASCRIPT LINK --------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+</body>
+</html>

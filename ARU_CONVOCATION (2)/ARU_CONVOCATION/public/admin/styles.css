@@ -1,0 +1,60 @@
+*{
+  font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*.sidebar-bg{
+    background-color: #D55E1C;
+    position: fixed;
+    top: 140px;
+}*/
+#sidebtn-hover:hover{
+background-color: #80902d;
+}
+#sidebtn-hover li{
+    list-style-type: none;
+}
+#spide-icon {
+    background-color:  #D55E1C;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active,
+ .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active{
+    background-color:  #D55E1C!important;
+ }
+
+ /*.top-fixed{
+    position: fixed!important;
+    top: 0;
+    z-index: -1!important;
+    overflow: hidden!important;
+ }*/
+ .top-fixed div{
+   display: block;
+   overflow: hidden!important;
+   position: fixed!important;
+   top: 140px;
+   float: left;
+ }
+ .topheader-bg{
+    background-color: #fff;
+     width: 100%!important;
+     overflow: hidden!important;
+    
+    opacity: 1;
+ }
+ .top2-fixed{
+   position: fixed;
+   top: 140px;
+  overflow: hidden!important;
+    background-color:  #D55E1C;
+    margin-top: 0;
+ }
+ #top-header .logo{
+margin-left: 100%;
+ }
+nav{
+   background-color: inherit!important;
+}
+
+
+ 
